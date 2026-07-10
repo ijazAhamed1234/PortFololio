@@ -114,8 +114,8 @@ const CERTS = [
     year: "2026",
     color: "#e28743",
     category: "internship",
-    image: `\${import.meta.env.BASE_URL}Portfolio/Dev.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Dev.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/Dev.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Dev.pdf`,
     desc: "Completed a 30-day intensive industry internship focused on end-to-end full stack development using Java."
   },
   {
@@ -124,8 +124,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#22d3ee",
     category: "internship",
-    image: `\${import.meta.env.BASE_URL}Portfolio/vei.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/vei.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/vei.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/vei.pdf`,
     desc: "Undertook an industry internship implementing and fine-tuning AI and Machine Learning algorithms."
   },
   {
@@ -134,8 +134,8 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "internship",
-    image: `\${import.meta.env.BASE_URL}Portfolio/SAN TECHNOLOGIES.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/San Intern.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/SAN TECHNOLOGIES.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/San Intern.pdf`,
     desc: "Successfully completed hands-on training from concept to product development using microcontrollers and IoT sensors."
   },
   {
@@ -144,8 +144,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#f59e0b",
     category: "award",
-    image: `\${import.meta.env.BASE_URL}Portfolio/Synergy.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Ambassador synergy.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/Synergy.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Ambassador synergy.pdf`,
     desc: "Recognized for excellence in leadership as a Student Ambassador for the Synergy Squad 4.0."
   },
   {
@@ -154,8 +154,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#10b981",
     category: "award",
-    image: `\${import.meta.env.BASE_URL}Portfolio/Synergy 1st.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Synergy 1st.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/Synergy 1st.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Synergy 1st.pdf`,
     desc: "Secured first prize in the programming/coding challenge organized by the CSE department."
   },
   {
@@ -164,8 +164,8 @@ const CERTS = [
     year: "2025",
     color: "#ec4899",
     category: "award",
-    image: `\${import.meta.env.BASE_URL}Portfolio/KSR.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Ksr 1st.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/KSR.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Ksr 1st.pdf`,
     desc: "Secured first prize at the Spring Fest 2K25 National Level Technical Symposium UI/UX Design Challenge."
   },
   {
@@ -174,8 +174,8 @@ const CERTS = [
     year: "2023 – 2024",
     color: "#8b5cf6",
     category: "course",
-    image: `\${import.meta.env.BASE_URL}Portfolio/CSC.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/CSC.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/CSC.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/CSC.pdf`,
     desc: "Awarded Grade A (Excellent) for successfully completing the Diploma in Computer Application."
   },
   {
@@ -184,8 +184,8 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "course",
-    image: `\${import.meta.env.BASE_URL}Portfolio/value added.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/value added.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/value added.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/value added.pdf`,
     desc: "Value-added course covering hardware, embedded systems architecture, and IoT cloud platforms."
   },
   {
@@ -194,8 +194,8 @@ const CERTS = [
     year: "2026",
     color: "#ec4899",
     category: "course",
-    image: `\${import.meta.env.BASE_URL}Portfolio/IEEE.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/IEEE UIUX.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/IEEE.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/IEEE UIUX.pdf`,
     desc: "Participated in a one-day workshop on modern UI/UX workflows and wireframing."
   },
   {
@@ -204,8 +204,8 @@ const CERTS = [
     year: "2025",
     color: "#ef4444",
     category: "course",
-    image: `\${import.meta.env.BASE_URL}Portfolio/Sona.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Sona.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/Sona.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Sona.pdf`,
     desc: "Participated in the game development workshop covering Unity engine and C# scripting."
   },
   {
@@ -214,8 +214,8 @@ const CERTS = [
     year: "2025",
     color: "#14b8a6",
     category: "symposium",
-    image: `\${import.meta.env.BASE_URL}Portfolio/PSG.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/PSG.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/PSG.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/PSG.pdf`,
     desc: "Participated in the தீர்வு'ATHON 2025 National Level Inter-Collegiate Idea Pitching Competition."
   },
   {
@@ -224,8 +224,8 @@ const CERTS = [
     year: "2026",
     color: "#f59e0b",
     category: "symposium",
-    image: `\${import.meta.env.BASE_URL}Portfolio/GCE.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/GCE.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/GCE.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/GCE.pdf`,
     desc: "Participated in the National Level Technical Symposium organized by the Dept of CSE."
   },
   {
@@ -234,8 +234,8 @@ const CERTS = [
     year: "2025",
     color: "#a855f7",
     category: "symposium",
-    image: `\${import.meta.env.BASE_URL}Portfolio/Kongu.png`,
-    link: `\${import.meta.env.BASE_URL}Portfolio/Kongu.pdf`,
+    image: `${import.meta.env.BASE_URL}Portfolio/Kongu.png`,
+    link: `${import.meta.env.BASE_URL}Portfolio/Kongu.pdf`,
     desc: "Participated in the one-day National Level Technical Symposium organized by the MCA department."
   }
 ]
