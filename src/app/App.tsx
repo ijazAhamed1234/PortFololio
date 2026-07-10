@@ -56,7 +56,7 @@ const EDUCATION = [
     level: "B.E. Computer Science & Engineering",
     institution: "Knowledge Institute of Technology (Autonomous), Salem",
     duration: "2023 – 2027",
-    grade: "CGPA 8.8 / 10",
+    grade: "CGPA 8.23 / 10",
     desc: "Specializing in software engineering, AI/ML, and Embedded Systems. Serving as SCINTEL Association Student Ambassador and actively participating in coding contests and technical workshops.",
   },
 ]
