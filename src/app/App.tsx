@@ -649,28 +649,25 @@ export default function App() {
           </FadeIn>
 
           <div className="relative">
-            {/* Timeline spine */}
-            <div className="absolute left-7 top-4 bottom-4 w-px bg-gradient-to-b from-violet-500 via-violet-500/40 to-transparent" />
-
-            <div className="space-y-10">
+            <div className="space-y-6 md:space-y-10">
               {EDUCATION.map((edu, i) => (
                 <motion.div
                   key={edu.institution}
-                  initial={{ opacity: 0, x: -28 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-60px" }}
                   transition={{ delay: i * 0.14, duration: 0.6 }}
-                  className="flex gap-8"
+                  className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 relative z-10"
                 >
                   {/* Icon node */}
-                  <div className="shrink-0">
-                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-violet-600 to-fuchsia-500 flex items-center justify-center shadow-lg shadow-violet-600/25">
-                      <GraduationCap size={24} className="text-white" />
+                  <div className="shrink-0 flex items-center justify-center sm:block">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br from-violet-600 to-fuchsia-500 flex items-center justify-center shadow-lg shadow-violet-600/25">
+                      <GraduationCap size={20} className="text-white sm:w-6 sm:h-6" />
                     </div>
                   </div>
 
-                  <Glass glow className="flex-1 p-6">
-                    <div className="flex flex-wrap items-start justify-between gap-3 mb-2">
+                  <Glass glow className="flex-1 p-5 md:p-6 text-center sm:text-left">
+                    <div className="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between gap-3 mb-2">
                       <div>
                         <span className="text-[11px] font-bold text-violet-400 uppercase tracking-wider">{edu.level}</span>
                         <h3 className="text-base font-bold text-slate-100 mt-1">{edu.institution}</h3>
