@@ -114,7 +114,8 @@ const CERTS = [
     year: "2026",
     color: "#e28743",
     category: "internship",
-    image: "/PortFololio/Portfolio/Dev.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/Dev.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Dev.pdf`,
     desc: "Completed a 30-day intensive industry internship focused on end-to-end full stack development using Java."
   },
   {
@@ -123,7 +124,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#22d3ee",
     category: "internship",
-    image: "/PortFololio/Portfolio/vei.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/vei.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/vei.pdf`,
     desc: "Undertook an industry internship implementing and fine-tuning AI and Machine Learning algorithms."
   },
   {
@@ -132,7 +134,8 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "internship",
-    image: "/PortFololio/Portfolio/SAN TECHNOLOGIES.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/SAN TECHNOLOGIES.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/San Intern.pdf`,
     desc: "Successfully completed hands-on training from concept to product development using microcontrollers and IoT sensors."
   },
   {
@@ -141,7 +144,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#f59e0b",
     category: "award",
-    image: "/PortFololio/Portfolio/Synergy.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/Synergy.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Ambassador synergy.pdf`,
     desc: "Recognized for excellence in leadership as a Student Ambassador for the Synergy Squad 4.0."
   },
   {
@@ -150,7 +154,8 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#10b981",
     category: "award",
-    image: "/PortFololio/Portfolio/Synergy 1st.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/Synergy 1st.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Synergy 1st.pdf`,
     desc: "Secured first prize in the programming/coding challenge organized by the CSE department."
   },
   {
@@ -159,7 +164,8 @@ const CERTS = [
     year: "2025",
     color: "#ec4899",
     category: "award",
-    image: "/PortFololio/Portfolio/KSR.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/KSR.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Ksr 1st.pdf`,
     desc: "Secured first prize at the Spring Fest 2K25 National Level Technical Symposium UI/UX Design Challenge."
   },
   {
@@ -168,7 +174,8 @@ const CERTS = [
     year: "2023 – 2024",
     color: "#8b5cf6",
     category: "course",
-    image: "/PortFololio/Portfolio/CSC.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/CSC.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/CSC.pdf`,
     desc: "Awarded Grade A (Excellent) for successfully completing the Diploma in Computer Application."
   },
   {
@@ -177,7 +184,8 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "course",
-    image: "/PortFololio/Portfolio/value added.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/value added.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/value added.pdf`,
     desc: "Value-added course covering hardware, embedded systems architecture, and IoT cloud platforms."
   },
   {
@@ -186,7 +194,8 @@ const CERTS = [
     year: "2026",
     color: "#ec4899",
     category: "course",
-    image: "/PortFololio/Portfolio/IEEE.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/IEEE.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/IEEE UIUX.pdf`,
     desc: "Participated in a one-day workshop on modern UI/UX workflows and wireframing."
   },
   {
@@ -195,7 +204,8 @@ const CERTS = [
     year: "2025",
     color: "#ef4444",
     category: "course",
-    image: "/PortFololio/Portfolio/Sona.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/Sona.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Sona.pdf`,
     desc: "Participated in the game development workshop covering Unity engine and C# scripting."
   },
   {
@@ -204,7 +214,8 @@ const CERTS = [
     year: "2025",
     color: "#14b8a6",
     category: "symposium",
-    image: "/PortFololio/Portfolio/PSG.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/PSG.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/PSG.pdf`,
     desc: "Participated in the தீர்வு'ATHON 2025 National Level Inter-Collegiate Idea Pitching Competition."
   },
   {
@@ -213,7 +224,8 @@ const CERTS = [
     year: "2026",
     color: "#f59e0b",
     category: "symposium",
-    image: "/PortFololio/Portfolio/GCE.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/GCE.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/GCE.pdf`,
     desc: "Participated in the National Level Technical Symposium organized by the Dept of CSE."
   },
   {
@@ -222,7 +234,8 @@ const CERTS = [
     year: "2025",
     color: "#a855f7",
     category: "symposium",
-    image: "/PortFololio/Portfolio/Kongu.png",
+    image: `\${import.meta.env.BASE_URL}Portfolio/Kongu.png`,
+    link: `\${import.meta.env.BASE_URL}Portfolio/Kongu.pdf`,
     desc: "Participated in the one-day National Level Technical Symposium organized by the MCA department."
   }
 ]
@@ -331,7 +344,7 @@ export default function App() {
     window.location.href = mailtoLink;
   };
   const [certCat, setCertCat] = useState("all")
-  const [activeCert, setActiveCert] = useState<string | null>(null)
+  const [activeCert, setActiveCert] = useState<typeof CERTS[0] | null>(null)
 
   const filteredCerts = certCat === "all"
     ? CERTS
@@ -540,7 +553,7 @@ export default function App() {
               <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-tr from-violet-500 via-fuchsia-400 to-violet-600">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
                   <img
-                    src="/PortFololio/Portfolio/Profile.jpeg"
+                    src=`\${import.meta.env.BASE_URL}Portfolio/Profile.jpeg`
                     alt="Ijaz Ahamed A"
                     className="w-full h-full object-cover object-top"
                   />
@@ -778,7 +791,7 @@ export default function App() {
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.35, ease: "easeInOut" }}
                   whileHover={{ y: -6, scale: 1.02 }}
-                  onClick={() => setActiveCert(cert.image)}
+                  onClick={() => setActiveCert(cert)}
                   className="cursor-pointer flex"
                 >
                   <div
@@ -813,7 +826,7 @@ export default function App() {
                       <button 
                         onClick={(e) => {
                           e.stopPropagation();
-                          setActiveCert(cert.image);
+                          setActiveCert(cert);
                         }}
                         className="mt-auto flex items-center justify-center gap-2 w-full py-2.5 rounded-xl text-xs font-semibold border border-white/10 text-slate-400 hover:border-violet-500/50 hover:text-violet-400 hover:bg-violet-500/10 transition-all duration-200"
                       >
@@ -1077,7 +1090,7 @@ export default function App() {
                 <X size={18} />
               </button>
               <img
-                src={activeCert}
+                src={activeCert?.image}
                 alt="Certificate View"
                 className="w-full h-auto max-h-[80vh] object-contain rounded-xl select-none"
               />
