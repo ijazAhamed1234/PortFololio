@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://ijazAhamed1234.github.io/PortFololio/",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
