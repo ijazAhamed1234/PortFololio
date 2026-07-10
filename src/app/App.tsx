@@ -553,7 +553,7 @@ export default function App() {
               <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-tr from-violet-500 via-fuchsia-400 to-violet-600">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
                   <img
-                    src={`${import.meta.env.BASE_URL}Portfolio/Profile.jpeg`}
+                    src={`${import.meta.env.BASE_URL}Portfolio/Profile_v2.jpeg`}
                     alt="Ijaz Ahamed A"
                     className="w-full h-full object-cover object-top"
                   />

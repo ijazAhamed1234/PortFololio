@@ -1,0 +1,1 @@
+import https from "https"; https.get("https://ijazahamed1234.github.io/PortFololio/Portfolio/Profile.jpeg", (res) => { console.log("Profile:", res.statusCode); }); https.get("https://ijazahamed1234.github.io/PortFololio/Portfolio/Dev.png", (res) => { console.log("Dev:", res.statusCode); });
