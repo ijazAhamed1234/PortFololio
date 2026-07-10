@@ -114,7 +114,7 @@ const CERTS = [
     year: "2026",
     color: "#e28743",
     category: "internship",
-    image: "./Portfolio/Dev.png",
+    image: "/PortFololio/Portfolio/Dev.png",
     desc: "Completed a 30-day intensive industry internship focused on end-to-end full stack development using Java."
   },
   {
@@ -123,7 +123,7 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#22d3ee",
     category: "internship",
-    image: "./Portfolio/VEI.png",
+    image: "/PortFololio/Portfolio/vei.png",
     desc: "Undertook an industry internship implementing and fine-tuning AI and Machine Learning algorithms."
   },
   {
@@ -132,7 +132,7 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "internship",
-    image: "./Portfolio/SAN TECHNOLOGIES.png",
+    image: "/PortFololio/Portfolio/SAN TECHNOLOGIES.png",
     desc: "Successfully completed hands-on training from concept to product development using microcontrollers and IoT sensors."
   },
   {
@@ -141,7 +141,7 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#f59e0b",
     category: "award",
-    image: "./Portfolio/Synergy.png",
+    image: "/PortFololio/Portfolio/Synergy.png",
     desc: "Recognized for excellence in leadership as a Student Ambassador for the Synergy Squad 4.0."
   },
   {
@@ -150,7 +150,7 @@ const CERTS = [
     year: "2025 – 2026",
     color: "#10b981",
     category: "award",
-    image: "./Portfolio/SYNERGY 1ST.png",
+    image: "/PortFololio/Portfolio/Synergy 1st.png",
     desc: "Secured first prize in the programming/coding challenge organized by the CSE department."
   },
   {
@@ -159,7 +159,7 @@ const CERTS = [
     year: "2025",
     color: "#ec4899",
     category: "award",
-    image: "./Portfolio/KSR.png",
+    image: "/PortFololio/Portfolio/KSR.png",
     desc: "Secured first prize at the Spring Fest 2K25 National Level Technical Symposium UI/UX Design Challenge."
   },
   {
@@ -168,7 +168,7 @@ const CERTS = [
     year: "2023 – 2024",
     color: "#8b5cf6",
     category: "course",
-    image: "./Portfolio/CSC.png",
+    image: "/PortFololio/Portfolio/CSC.png",
     desc: "Awarded Grade A (Excellent) for successfully completing the Diploma in Computer Application."
   },
   {
@@ -177,7 +177,7 @@ const CERTS = [
     year: "2025",
     color: "#3b82f6",
     category: "course",
-    image: "./Portfolio/VAlue added.png",
+    image: "/PortFololio/Portfolio/value added.png",
     desc: "Value-added course covering hardware, embedded systems architecture, and IoT cloud platforms."
   },
   {
@@ -186,7 +186,7 @@ const CERTS = [
     year: "2026",
     color: "#ec4899",
     category: "course",
-    image: "./Portfolio/IEEE.png",
+    image: "/PortFololio/Portfolio/IEEE.png",
     desc: "Participated in a one-day workshop on modern UI/UX workflows and wireframing."
   },
   {
@@ -195,7 +195,7 @@ const CERTS = [
     year: "2025",
     color: "#ef4444",
     category: "course",
-    image: "./Portfolio/SONA.png",
+    image: "/PortFololio/Portfolio/Sona.png",
     desc: "Participated in the game development workshop covering Unity engine and C# scripting."
   },
   {
@@ -204,7 +204,7 @@ const CERTS = [
     year: "2025",
     color: "#14b8a6",
     category: "symposium",
-    image: "./Portfolio/PSG.png",
+    image: "/PortFololio/Portfolio/PSG.png",
     desc: "Participated in the தீர்வு'ATHON 2025 National Level Inter-Collegiate Idea Pitching Competition."
   },
   {
@@ -213,7 +213,7 @@ const CERTS = [
     year: "2026",
     color: "#f59e0b",
     category: "symposium",
-    image: "./Portfolio/GCE.png",
+    image: "/PortFololio/Portfolio/GCE.png",
     desc: "Participated in the National Level Technical Symposium organized by the Dept of CSE."
   },
   {
@@ -222,7 +222,7 @@ const CERTS = [
     year: "2025",
     color: "#a855f7",
     category: "symposium",
-    image: "./Portfolio/KONGU.png",
+    image: "/PortFololio/Portfolio/Kongu.png",
     desc: "Participated in the one-day National Level Technical Symposium organized by the MCA department."
   }
 ]
@@ -540,7 +540,7 @@ export default function App() {
               <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-tr from-violet-500 via-fuchsia-400 to-violet-600">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
                   <img
-                    src="./Portfolio/Profile.jpeg"
+                    src="/PortFololio/Portfolio/Profile.jpeg"
                     alt="Ijaz Ahamed A"
                     className="w-full h-full object-cover object-top"
                   />
