@@ -34,7 +34,7 @@ const EDUCATION = [
   {
     level: "Secondary School — Class X",
     institution: "St Mary Goretty Hr Sec School, Manalikarai",
-    duration: "2019 – 2021",
+    duration: "2021 – 2022",
     grade: "431/500 — 86.2%",
     desc: "Completed Class X with 431 out of 500 marks (86.2%). Active participant in school-level mathematics and science activities.",
   },
@@ -55,7 +55,7 @@ const EDUCATION = [
   {
     level: "B.E. Computer Science & Engineering",
     institution: "Knowledge Institute of Technology (Autonomous), Salem",
-    duration: "2023 – 2027",
+    duration: "2024 – 2028",
     grade: "CGPA 8.23 / 10",
     desc: "Specializing in software engineering, AI/ML, and Embedded Systems. Serving as SCINTEL Association Student Ambassador and actively participating in coding contests and technical workshops.",
   },
