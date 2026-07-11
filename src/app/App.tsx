@@ -425,10 +425,15 @@ export default function App() {
             ))}
           </nav>
 
-          <button className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold shadow-lg shadow-violet-700/30 hover:shadow-violet-600/50 hover:-translate-y-0.5 active:scale-95 transition-all duration-200">
+          <a 
+            href="/Portfolio/Resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold shadow-lg shadow-violet-700/30 hover:shadow-violet-600/50 hover:-translate-y-0.5 active:scale-95 transition-all duration-200"
+          >
             <Download size={14} />
             Resume
-          </button>
+          </a>
 
           <button
             className="md:hidden p-2 rounded-lg hover:bg-white/8 text-slate-400"
@@ -451,10 +456,15 @@ export default function App() {
                 {link.label}
               </button>
             ))}
-            <button className="mt-2 flex items-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold">
+            <a 
+              href="/Portfolio/Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-2 flex items-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold"
+            >
               <Download size={15} />
               Download Resume
-            </button>
+            </a>
           </div>
         )}
       </header>
