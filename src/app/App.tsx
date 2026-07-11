@@ -379,20 +379,24 @@ export default function App() {
 
       {/* ── Ambient background ── */}
       <div className="fixed inset-0 pointer-events-none" aria-hidden>
+        {/* Static background for mobile for better performance */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-violet-900/20 via-black to-black md:hidden" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent md:hidden" />
+
         <motion.div 
           animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3], x: [0, 30, 0], y: [0, -30, 0] }}
           transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute -top-40 -left-40 w-[700px] h-[700px] rounded-full bg-violet-700/20 blur-[130px]" 
+          className="absolute -top-40 -left-40 w-[700px] h-[700px] rounded-full bg-violet-700/20 blur-[130px] hidden md:block" 
         />
         <motion.div 
           animate={{ scale: [1, 1.3, 1], opacity: [0.2, 0.4, 0.2], x: [0, -40, 0], y: [0, 40, 0] }}
           transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute top-1/3 -right-40 w-[560px] h-[560px] rounded-full bg-fuchsia-500/12 blur-[110px]" 
+          className="absolute top-1/3 -right-40 w-[560px] h-[560px] rounded-full bg-fuchsia-500/12 blur-[110px] hidden md:block" 
         />
         <motion.div 
           animate={{ scale: [1, 1.1, 1], opacity: [0.3, 0.6, 0.3], x: [0, 20, 0], y: [0, 20, 0] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute bottom-0 left-1/4 w-[480px] h-[480px] rounded-full bg-purple-900/30 blur-[100px]" 
+          className="absolute bottom-0 left-1/4 w-[480px] h-[480px] rounded-full bg-purple-900/30 blur-[100px] hidden md:block" 
         />
         {/* Grid pattern */}
         <div
@@ -562,7 +566,7 @@ export default function App() {
 
               {/* Rotating dashed ring */}
               <div
-                className="absolute inset-[-12px] rounded-full border border-dashed border-violet-500/20"
+                className="absolute inset-[-12px] rounded-full border border-dashed border-violet-500/20 hidden md:block"
                 style={{ animation: "spin 20s linear infinite" }}
               />
 
@@ -570,7 +574,7 @@ export default function App() {
               {FLOATING_TECH.map((t, i) => (
                 <motion.div
                   key={t.label}
-                  className="absolute flex items-center gap-1.5 px-3 py-1.5 rounded-xl backdrop-blur-md bg-white/10 border border-white/20 text-[11px] font-bold text-slate-200 shadow-lg whitespace-nowrap"
+                  className="absolute hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-xl backdrop-blur-md bg-white/10 border border-white/20 text-[11px] font-bold text-slate-200 shadow-lg whitespace-nowrap"
                   style={t.style}
                   animate={{ y: [0, -10, 0] }}
                   transition={{
@@ -590,7 +594,7 @@ export default function App() {
 
         {/* Scroll cue */}
         <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-600"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-slate-600"
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2.2, repeat: Infinity }}
         >
