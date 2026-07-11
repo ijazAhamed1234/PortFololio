@@ -20,7 +20,7 @@ const NAV_LINKS = [
 ]
 
 const PERSONAL = [
-  { icon: User, label: "Full Name", value: "Ijaz Ahamed A" },
+  { icon: User, label: "Full Name", value: "IJAZ AHAMED A" },
   { icon: Code2, label: "Role", value: "Computer Science Student & Developer" },
   { icon: Mail, label: "Email", value: "ijasahamed0123@gmail.com", href: "mailto:ijasahamed0123@gmail.com" },
   { icon: Phone, label: "Phone", value: "+91 63810 28931", href: "tel:+916381028931" },
@@ -495,7 +495,7 @@ export default function App() {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-4">
                 Hi, I'm <br />
                 <span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-                  Ijaz Ahamed
+                  IJAZ AHAMED A
                 </span>
               </h1>
               <p className="text-slate-400 text-lg md:text-xl max-w-lg leading-relaxed">
@@ -554,7 +554,7 @@ export default function App() {
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
                   <img
                     src={`${import.meta.env.BASE_URL}Portfolio/Profile_v2.jpeg`}
-                    alt="Ijaz Ahamed A"
+                    alt="IJAZ AHAMED A"
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
