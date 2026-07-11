@@ -57,7 +57,7 @@ const EDUCATION = [
     institution: "Knowledge Institute of Technology (Autonomous), Salem",
     duration: "2024 – 2028",
     grade: "CGPA 8.23 / 10",
-    desc: "Specializing in software engineering, AI/ML, and Embedded Systems. Serving as SCINTEL Association Student Ambassador and actively participating in coding contests and technical workshops.",
+    desc: "Specializing in software engineering, AI/ML, and Embedded Systems. Serving as Synergy Squad 4.0 Student Ambassador and actively participating in coding contests and technical workshops.",
   },
 ]
 
