@@ -426,7 +426,8 @@ export default function App() {
           </nav>
 
           <a 
-            href="/Portfolio/Resume.pdf" 
+            href={`${import.meta.env.BASE_URL}Portfolio/Resume.pdf`}
+            download="Resume.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold shadow-lg shadow-violet-700/30 hover:shadow-violet-600/50 hover:-translate-y-0.5 active:scale-95 transition-all duration-200"
@@ -457,7 +458,8 @@ export default function App() {
               </button>
             ))}
             <a 
-              href="/Portfolio/Resume.pdf" 
+              href={`${import.meta.env.BASE_URL}Portfolio/Resume.pdf`}
+              download="Resume.pdf"
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-2 flex items-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 text-white text-sm font-semibold"
